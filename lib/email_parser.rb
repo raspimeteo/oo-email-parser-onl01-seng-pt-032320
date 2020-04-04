@@ -10,7 +10,7 @@ class EmailAddressParser
   
   def parse
     list = @list.split(', ')
-    list = @list.split(" ")
+    list = @list.split(' ')
   end
 
 end
