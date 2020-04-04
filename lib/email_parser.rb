@@ -7,12 +7,12 @@ class EmailAddressParser
     attr_accessor 
 
     def initialize(email_addresses)
-      list = email_addresses.split(',')
-      parse(list)
+      
+      parse(email_addresses)
 
     end
     
     def parse(list)
-      
+      list = email_addresses.split(',')
     end
 end
