@@ -8,11 +8,11 @@ class EmailAddressParser
 
     def initialize(email_addresses)
       list = email_addresses.split(',')
-      parse
+      parse(list)
 
     end
     
-    def parse
+    def parse(list)
       
     end
 end
