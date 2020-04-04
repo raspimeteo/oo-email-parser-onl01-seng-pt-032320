@@ -4,9 +4,4 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-    attr_accessor 
-
-    def parse
-      list = email_addresses.split(',')
-    end
 end
